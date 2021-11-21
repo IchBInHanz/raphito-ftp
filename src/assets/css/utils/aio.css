@@ -1,0 +1,10 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--text);
+    background-color: var(--first-bg);
+}

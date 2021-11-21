@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+}
+
+.title {
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    padding: 0px 10px;
+    position: relative;
+}
+
+button {
+    text-decoration: none;
+    font-size: 1.0rem;
+    border-radius: 5px;
+    border: 2px solid var(--gray-btn);
+    background-color: var(--gray-btn);
+    cursor: pointer;
+    color: var(--text);
+    padding: 8px 14px;
+    transform: 0.1s;
+}
+
+button:hover {
+    border: 2px solid var(--third-bg);
+    transform: 0.1s;
+}
+
+.menu-btn-link-new {
+    float: left;
+}
+.menu-btn-link-new>button {
+    background-color: var(--green-btn);
+    border: 2px solid var(--green-btn);
+}
+.menu-btn-link-settings {
+    float: right;
+}
