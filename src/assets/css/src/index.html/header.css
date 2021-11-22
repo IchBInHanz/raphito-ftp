@@ -25,6 +25,7 @@ button {
     color: var(--text);
     padding: 8px 14px;
     transform: 0.1s;
+    outline: none;
 }
 
 button:hover {

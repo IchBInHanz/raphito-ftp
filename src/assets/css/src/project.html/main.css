@@ -1,0 +1,23 @@
+main {
+    text-align: center;
+}
+
+
+label {
+    font-size: 1.2rem;
+}
+button {
+    margin-top: 2vh;
+    color: var(--text);
+    background-color: var(--green-btn);
+    padding: 8px 12px;
+    width: 14vw;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#del {
+    background-color: var(--red-btn);
+}

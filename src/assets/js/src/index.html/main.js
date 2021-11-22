@@ -5,7 +5,6 @@ let rawdata = fs.readFileSync(path.join(__dirname, '/configs/projects.json'));
 let projects = JSON.parse(rawdata);
 
 function openProject(prjId) {
-    alert(prjId)
     window.location.replace(`./project.html?prjId=${prjId}`);
 }
 
