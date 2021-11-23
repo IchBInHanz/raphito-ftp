@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raphito FTP Client</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/utils/aio.css">
+    <link rel="stylesheet" href="./assets/css/utils/colors.css">
+    <link rel="stylesheet" href="./assets/css/src/settings.html/header.css">
+    <link rel="stylesheet" href="./assets/css/src/settings.html/main.css">
+    <!-- JS -->
+    <script defer src="./assets/js/src/settings.html/gdrive.js"></script>
+</head>
+<body>
+    <header>
+        <a href="./index.html" class="back">
+            <span>&#8592;</span>
+        </a>
+    </header>
+    <main>
+        <button id="connect-gdrive">Connect to google drive</button>
+        <div id="gdrive-token-modal" class="gdrive-token-modal">
+            <div class="gdrive-token-modal-content">
+                <div class="div-gdrive-authurl">
+                    <input id="gdrive-authurl-copy" type="text" readonly>
+                    <a id="gdrive-authurl" href="" target="_blank" rel="noopener noreferrer">Click to Open</a>
+                </div>
+                <input id="gdrive-token" type="text" placeholder="Google Drive Token">
+                <button id="gdrive-send-token">Send</button>
+            </div>
+          </div>
+    </main>
+</body>
+</html>

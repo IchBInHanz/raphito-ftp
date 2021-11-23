@@ -1,0 +1,69 @@
+#connect-gdrive {
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+    color: var(--text);
+    background-color: var(--green-btn);
+    font-size: 1.4rem;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gdrive-token-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.gdrive-token-modal-content {
+    background-color: var(--third-bg);
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    padding: 20px;
+    width: 40vw;
+}
+
+.gdrive-token-modal-content>input, button[id="gdrive-send-token"] {
+    background-color: var(--second-bg);
+    padding: 6px 8px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    width: 25vw;
+    color: var(--text);
+    outline: none;
+}
+
+.gdrive-token-modal-content>button[id="gdrive-send-token"] {
+    width: 12vw;
+    cursor: pointer;
+}
+.div-gdrive-authurl {
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+#gdrive-authurl-copy, #gdrive-authurl {
+    background-color: var(--second-bg);
+    padding: 6px 8px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    width: 18vw;
+    color: var(--text);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}

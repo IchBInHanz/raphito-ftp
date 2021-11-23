@@ -1,0 +1,15 @@
+header {
+    height: 6vh;
+    width: 100vw;
+}
+
+.back {
+    position: relative;
+    background-color: var(--second-bg);
+    font-size: 1.6rem;
+    color: var(--text);
+    padding: 4px 16px;
+    text-decoration: none;
+    border: none;
+    border-bottom-right-radius: 5px;
+}
